@@ -1,0 +1,22 @@
+{
+    "onboardingTitle1": "Fotoğrafınızı Seçin",
+    "onboardingDesc1": "Arka planını kaldırmak istediğin fotoğrafınızı seçin",
+    "onboardingTitle2": "Hazır Ol",
+    "onboardingDesc2": "Mükemmel fotoğrafınızın arkaplanın kaldırılması için birkaç saniye bekleyin!",
+    "onboardingTitle3": "İndirin!",
+    "onboardingDesc3": "Arka planı kaldırılmış fotoğrafınız indirilmeye hazır!",
+    "homePage": "Ana Ekran",
+    "uploadPhoto": "Fotoğraf Yükle",
+    "download": "İndir",
+    "result": "Sonuç",
+    "loadingText": "Sihirbazımız fotoğrafınızı en iyi hale getirmek için çalışıyor.",
+    "errorTitle": "Bir şeyler ters gitti",
+    "errorText1": "Bazı şeyler beklenildiği gibi gitmedi.",
+    "errorText2": "Lütfen tekrar deneyin!",
+    "permRequired": "İzin gerekli",
+    "permRequiredDesc": "Fotoğrafınızı indirmek için lütfen izni kabul edin!",
+    "success": "Başarılı",
+    "imageSaved": "Fotoğraf galeriye kaydedildi!",
+    "error": "Hata",
+    "failedSave": "Fotoğraf kaydedilemedi!"
+}

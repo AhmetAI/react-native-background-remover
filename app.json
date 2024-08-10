@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "BackMagic",
-    "slug": "BackMagic",
+    "slug": "backmagic",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,34 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ahmetai3416.BackMagic",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-media-library",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/assets/fonts/Montserrat-Regular.ttf",
+            "./src/assets/fonts/Montserrat-SemiBold.ttf"
+          ]
+        }
+      ],
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "42906350-e20b-452b-bdf6-14991a140b51"
+      }
+    },
+    "owner": "ahmetai3416"
   }
 }

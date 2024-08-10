@@ -1,0 +1,22 @@
+{
+    "onboardingTitle1": "Select Photo",
+    "onboardingDesc1": "Select the photo you want to remove the background from",
+    "onboardingTitle2": "Get Ready",
+    "onboardingDesc2": "Wait a few seconds for your photo to be perfect!",
+    "onboardingTitle3": "Download!",
+    "onboardingDesc3": "Your amazing photo with the background removed is ready to download!",
+    "homePage": "Home Page",
+    "uploadPhoto": "Upload Photo",
+    "download": "Download",
+    "result": "Result",
+    "loadingText": "Our wizard is working to make your photo the best it can be.",
+    "errorTitle": "Something went wrong",
+    "errorText1": "Some things didn't go as expected.",
+    "errorText2": "Please try again!",
+    "permRequired": "Permission required",
+    "permRequiredDesc": "Permission to access media library is required!",
+    "success": "Success",
+    "imageSaved": "Image saved to gallery!",
+    "error": "Error",
+    "failedSave": "Failed to save image!"
+}
