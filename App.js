@@ -20,8 +20,8 @@ const Stack = createNativeStackNavigator();
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
-  const { t, i18n } = useTranslation();
-  const [isFirstOpen, setIsFirstOpen] = React.useState(true)
+  const { i18n } = useTranslation();
+  const [isFirstOpen, setIsFirstOpen] = React.useState(false)
   
   const [loaded, error] = useFonts({
     'Montserrat-Regular': require('./src/assets/fonts/Montserrat-Regular.ttf'),
@@ -33,6 +33,8 @@ export default function App() {
       SplashScreen.hideAsync();
     }
   }, [loaded, error]);
+
+
 
   React.useEffect(() => {
     checkLanguage();

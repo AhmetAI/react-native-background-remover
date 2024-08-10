@@ -23,13 +23,12 @@ const Result = ({ navigation, route }) => {
         useCallback(() => {
             const onBackPress = () => {
                 navigation.navigate('HomePage');
-                return true;
             };
             BackHandler.addEventListener('hardwareBackPress', onBackPress);
             return () => {
                 BackHandler.removeEventListener('hardwareBackPress', onBackPress);
             };
-        }, [navigation])
+        }, [])
     );
 
 
