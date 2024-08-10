@@ -19,7 +19,6 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ahmetai3416.BackMagic",
       "permissions": [
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE"
@@ -40,12 +39,6 @@
         }
       ],
       "expo-localization"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "42906350-e20b-452b-bdf6-14991a140b51"
-      }
-    },
-    "owner": "ahmetai3416"
+    ]
   }
 }
