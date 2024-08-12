@@ -1,17 +1,23 @@
 # Introduction
-BackMagic is an application that allows us to easily remove the background from images using an API key get from www.remove.bg
 
-> [!NOTE]
-> You can get your API key from www.remove.bg
+### BackMagic is a mobile application developed using React Native and Expo. The app leverages the remove.bg API to remove the background of images submitted by users. It also features multi-language support (i18n) and a comprehensive user onboarding process.
+
+# Features
+
+- **Background Removal:** Easily removes the background from uploaded images using the remove.bg API.
+- **Multi-Language:** Offers multiple language options with i18n, providing users an experience in different languages.
+- **Onboarding:** Provides a simple, guided introduction to the app’s core features and functionality for new users using the react-native-onboarding-swiper module.
+- **Custom Fonts:** Utilizes the expo-fonts module to manage and apply custom fonts across the app.
+- **Animations:** Uses Lottie for smooth and engaging animations throughout the app.
+- **Toasted Messages:** Implements notifications using the react-native-alert-notification module to enhance user interactions.
 
 ## Video
 
 <div align="center">
   
   https://github.com/user-attachments/assets/55763222-c84d-4d00-87f4-d00080c9727a
-
+  
 </div>
-
 
 ## Screenshots
 
@@ -20,8 +26,8 @@ BackMagic is an application that allows us to easily remove the background from 
   <strong>Onboarding</strong>
   
   <img src="https://github.com/user-attachments/assets/6f5d03d9-ff94-4a54-9f8c-78cc898a6df9" width="200">
-  <img src="https://github.com/user-attachments/assets/004d84a7-4ece-47d6-bf56-2046b37fed23" width="200">
   <img src="https://github.com/user-attachments/assets/c5350c40-59ab-48e5-a7a8-108e4cd92453" width="200">
+  <img src="https://github.com/user-attachments/assets/004d84a7-4ece-47d6-bf56-2046b37fed23" width="200">
 
   <strong>Screens</strong>
   
@@ -32,9 +38,19 @@ BackMagic is an application that allows us to easily remove the background from 
 
 </div>
 
+# Requirements
+- Expo
+- [remove.bg](https://www.remove.bg) API Key
+
 # Installation
 ```
 $ git clone https://github.com/AhmetAI/react-native-background-remover.git
 $ cd react-native-background-remover
 $ npm install
 ```
+**Add your remove.bg API key to a [.env](.env) file:**
+```
+API_KEY="YOUR_API_KEY"
+```
+# ❤️ Contribution 
+Contributions are welcome! Please open an issue first to discuss what you would like to change.
